@@ -1,0 +1,28 @@
+@theme {
+    --font-electrolize: "Electrolize", sans-serif;
+    --font-aleo: "Aleo", sans-serif;
+    --color-accent-light: #fdf8ed;
+    --color-accent-content: #a97da7;
+    --color-accent-bright: #e5a240;
+    --color-accent-foreground: #b9bdb2;
+    --color-dark-green: #1a1c17;
+}
+
+@layer base {
+    h1 {
+        font-family: "Electrolize", serif;
+        font-size: var(--text-2xl);
+        padding: 1rem 0 1rem 0;
+    }
+
+    h2 {
+        font-family: "Aleo", sans-serif;
+        font-size: var(--text-xl);
+        padding: 0.5rem 0 0.5rem 0;
+    }
+
+    p {
+        padding: 0.5rem 0 0.5rem 0;
+        font-family: "Aleo", sans-serif;
+    }
+}
